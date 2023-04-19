@@ -1,0 +1,154 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+a {
+    color: #000;
+    user-select: none;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+#homeContainer {
+    background-color: #ecf8f7;
+    width: 90%;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #4db6ac;
+}
+
+#backgroundClientContainer {
+    background-color: #ecf8f7;
+    height: 100vh;
+    padding: 10px 0;
+}
+
+#titleContainer {
+    width: 30%;
+    background-color: teal;
+    border-radius: 0 20px 20px 0;
+}
+
+#Title {
+    width: 90%;
+    color: #FFF;
+
+    margin: 10px 0 30px 20px;
+    padding: 10px 0 10px 0;
+}
+
+#collapsibleContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#historyCollapsibleContainer {
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+#collapsibleHeader:hover {
+    background-color: #4db6ac;
+    color: #FFF;
+}
+
+#collapsibleBody {
+    background-color: #fff;
+}
+
+#editDeleteButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3px;
+}
+
+#totalContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3px;
+}
+
+#editDeleteButton {
+    margin: 0 5px 0 12px;
+}
+
+#total {
+    margin: 0 5px 0 12px;
+}
+
+#addButtonContainer {
+    margin: 0 20px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+#sellButtonContainer {
+    margin: 0 20px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 112px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#historyButtonContainer {
+    margin: 0 20px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 198px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* -----------------------MODAL----------------------- */
+
+#modalLine {
+    margin-bottom: 0;
+}
+
+#cancelButtonContainer {
+    color: #FFF;
+    margin: 0 7px 0 0;
+    background-color: #c0c0c0;
+}
+
+#cadastrarButtonContainer {
+    color: #FFF;
+    margin: 0 7px 0 0;
+    background-color: #4db6ac;
+}
+
+#cancelButton {
+    color: #fff;
+}
+
+#sendButton {
+    color: #fff;
+}
